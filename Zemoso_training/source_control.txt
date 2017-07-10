@@ -1,0 +1,38 @@
+Installing Github
+-- apt-get install git
+
+Configuring GitHub
+--git config --global user.name "saisrinivas047"
+--git config --global user.email "saisrinivas.chetti@zemosolabs.com"
+
+Creating local github repository
+-- git init first_git_repo
+
+Creating a new text file:
+-- touch /home/first_git_repo/hello_world.txt
+
+Writing in a text file using nano command:
+-- nano  hello_world.txt
+
+Adding and commiting the file to the remote github repository
+-- git add -A
+-- git commit -m "hello_world"
+
+Pushing the file to remote github repository
+--git remote add origin https://github.com/saisrinivas047/zemoso-training.git
+--git push origin master
+
+Creating a new branch
+--git branch new-branch
+
+Merging the new branch
+--git checkout master
+--git pull origin master
+--sudo git merge new-branch
+--sudo git push origin master 
+
+Cloning the githup repository to a new folder
+--git clone https://github.com/saisrinivas047/zemoso-training.git
+
+
+
