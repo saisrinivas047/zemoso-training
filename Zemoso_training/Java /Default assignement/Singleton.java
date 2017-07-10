@@ -5,8 +5,8 @@ public class Singleton {
 
     static Singleton getObj(String str)
     {
-        Singleton singletonObj = new Singleton();
-        singletonObj.S = str;
+        Singleton singletonObj = new Singleton(); //We get an error here that the non-static field 'S' cannot be used here in Static field
+        singletonObj.S = str;                       //So we create an object so initialize the string
         return singletonObj;
     }
 
