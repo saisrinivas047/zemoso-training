@@ -1,0 +1,52 @@
+var data = {
+          "images": [{
+          "img": "Images/1.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+
+          },
+          {
+          "img": "Images/2.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+          },
+          {
+          "img": "Images/7.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+          },
+          {
+          "img": "Images/7.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+          },
+          {
+          "img": "Images/2.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+          },
+          {
+          "img": "Images/6.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+          },
+          {
+          "img": "Images/7.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+          },
+          {
+          "img": "Images/7.jpg",
+          "name" : "casual",
+          "date" : "date",
+          "info" : "info"
+          }
+          ]
+        };

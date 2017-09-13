@@ -1,0 +1,218 @@
+#container, #content {
+    width: 800px;
+}
+
+#container {
+    margin: 0 auto 0 auto;
+}
+
+
+div {
+    display: block;
+}
+
+ body{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    background-color: white;
+    color: black;
+    border-top: 5px solid gray;
+    font-size: 12pt;
+}
+
+#navigation {
+    width: 100%;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navigation {
+    font-family: 'Unica One', cursive;
+    color: #0065BD;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ #navigation, .page-title {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#navigation > a {
+    font-size: 20px;
+    color: #0065BD;
+    background-color: #F0FFFF;
+    width: 25%;
+    display: inline-block;
+    margin-left: -6px;
+    border-right: 1px solid #d3d3d3;
+    padding: 30px 0px 30px 0px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+#header {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+img#logo {
+    border: none;
+}
+
+#logo {
+    display: block;
+    border-radius: 1000px;
+    margin: 20px 20px 20px 0px;
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    float: left;
+    margin: 0px 20px 15px 0px;
+    border: 1px solid #d3d3d3;
+}
+
+#site-title {
+    margin-top: 20px;
+    font-size: 40pt;
+}
+
+#site-title, .page-title, .post-title {
+    display: block;
+    width: 100%;
+}
+
+#site-title, .post-title, h1, h2, h3, h4, h5, h6, .excerpt > a, #navigation {
+    font-family: 'Unica One', cursive;
+    color: #0065BD;
+    text-transform: uppercase;
+}
+
+#site-title, .page-title, .post-title, .top-details, .excerpt-date, .author, h1, h2, h3, h4, h5, h6, .excerpt > a, #navigation, .page-title {
+    font-weight: normal;
+}
+
+.page-title {
+    font-size: 18pt;
+    margin-bottom: 25px;
+}
+
+.page-title, .post-title {
+    font-size: 25pt;
+    margin-bottom: 20px;
+    line-height: 25pt;
+}
+
+#site-title, .page-title, .post-title {
+    display: block;
+    width: 100%;
+}
+
+.page-title, div.blockquote, .top-details .timestamp, .bottom-deftails .pagination, .excerpt-date {
+    color: gray;
+    font-style: italic;
+}
+
+#content {
+	font-size: 20px;
+    margin: 25px 0 25px 0;
+    line-height: 150%;
+    padding-left: 250px;
+}
+
+#container, #content {
+    width: 800px;
+}
+
+p {
+    margin: 0px 0px 20px 0px;
+}
+
+body, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+table{
+	border-spacing: 10px 10px;
+	border-radius: 2em;
+  border:1px solid black;}
+
+p.featured {
+    font-size: 20pt !important;
+    line-height: 20pt !important;
+}
+
+.featured {
+    font-size: 16pt;
+    background-color: #ededed;
+    padding: 20px;
+    line-height: 20pt;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* button */
+#editImage {
+    display: none;
+}
+
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="index.css"/>
+	</head>
+	<body>
+	<div id="container">
+		<div id = "header">
+			<div id="navigation">
+				<a href="index.html">Home</a>
+				<a  target="_blank"  href="aboutME.html">About ME</a>
+				<a  target="_blank"  href="contactME.html">Contact Me</a>
+				<a  target="_blank"  href="gallery.html">Gallery</a>
+			</div>
+		<img id="logo" src="Images/image.jpg" />
+		<div id="site-title">Sai Srinivas CH</div>
+		<div class="page-title">Software Developer</div>
+		</div>
+	</div>
+	 </body>
+
+	<style type="text/css">
+	#img-container img{
+		position: relative;
+		width:280px;height: 240px;
+		float: right;
+	}
+
+	#add ,#edit ,#del{
+		border-radius: 5px;
+		font-size: 20px;
+		padding: 10px;
+	}
+  </style>
+
+<div id="buttonid" style="text-align: center;">
+ <button type="button" id="add"> Add Image </button> 
+	<button type="button" id="edit"> Edit Image </button> 
+	<button type="button" id="del"> Delete Image </button> 
+</div>
+<br> </br>
+	<div class="banner-section" id="img-container" ></div>
+  <script type="text/javascript" src = "Gallery.json"></script>
+	<script type="text/javascript" src = "Gallery.js"></script>
+	 
+</html>
